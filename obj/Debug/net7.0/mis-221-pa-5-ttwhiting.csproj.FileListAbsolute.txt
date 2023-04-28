@@ -1,0 +1,15 @@
+C:\Users\tyriq\source\repos\spring2023\mis221\mis-221-pa-5-ttwhiting\bin\Debug\net7.0\mis-221-pa-5-ttwhiting.exe
+C:\Users\tyriq\source\repos\spring2023\mis221\mis-221-pa-5-ttwhiting\bin\Debug\net7.0\mis-221-pa-5-ttwhiting.deps.json
+C:\Users\tyriq\source\repos\spring2023\mis221\mis-221-pa-5-ttwhiting\bin\Debug\net7.0\mis-221-pa-5-ttwhiting.runtimeconfig.json
+C:\Users\tyriq\source\repos\spring2023\mis221\mis-221-pa-5-ttwhiting\bin\Debug\net7.0\mis-221-pa-5-ttwhiting.dll
+C:\Users\tyriq\source\repos\spring2023\mis221\mis-221-pa-5-ttwhiting\bin\Debug\net7.0\mis-221-pa-5-ttwhiting.pdb
+C:\Users\tyriq\source\repos\spring2023\mis221\mis-221-pa-5-ttwhiting\obj\Debug\net7.0\mis-221-pa-5-ttwhiting.csproj.AssemblyReference.cache
+C:\Users\tyriq\source\repos\spring2023\mis221\mis-221-pa-5-ttwhiting\obj\Debug\net7.0\mis-221-pa-5-ttwhiting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tyriq\source\repos\spring2023\mis221\mis-221-pa-5-ttwhiting\obj\Debug\net7.0\mis-221-pa-5-ttwhiting.AssemblyInfoInputs.cache
+C:\Users\tyriq\source\repos\spring2023\mis221\mis-221-pa-5-ttwhiting\obj\Debug\net7.0\mis-221-pa-5-ttwhiting.AssemblyInfo.cs
+C:\Users\tyriq\source\repos\spring2023\mis221\mis-221-pa-5-ttwhiting\obj\Debug\net7.0\mis-221-pa-5-ttwhiting.csproj.CoreCompileInputs.cache
+C:\Users\tyriq\source\repos\spring2023\mis221\mis-221-pa-5-ttwhiting\obj\Debug\net7.0\mis-221-pa-5-ttwhiting.dll
+C:\Users\tyriq\source\repos\spring2023\mis221\mis-221-pa-5-ttwhiting\obj\Debug\net7.0\refint\mis-221-pa-5-ttwhiting.dll
+C:\Users\tyriq\source\repos\spring2023\mis221\mis-221-pa-5-ttwhiting\obj\Debug\net7.0\mis-221-pa-5-ttwhiting.pdb
+C:\Users\tyriq\source\repos\spring2023\mis221\mis-221-pa-5-ttwhiting\obj\Debug\net7.0\mis-221-pa-5-ttwhiting.genruntimeconfig.cache
+C:\Users\tyriq\source\repos\spring2023\mis221\mis-221-pa-5-ttwhiting\obj\Debug\net7.0\ref\mis-221-pa-5-ttwhiting.dll

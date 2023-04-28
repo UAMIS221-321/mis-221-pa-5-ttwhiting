@@ -1,62 +1,55 @@
-﻿string userInput = GetMenuChoice();
-while (userInput != "3")
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace mis_221_pa_5_ttwhiting
 {
-    Route(userInput);
-    userInput = GetMenuChoice();
-}
-
-
-
-// End main
-
-static string GetMenuChoice(){
-    DisplayMenu();
-    string userInput = Console.ReadLine();
-
-    while (!ValidMenuChoice(userInput))
+    class Program
     {
-        Console.WriteLine("Invalid menu choice.  Please Enter a Valid Menu Choice");
-        Console.WriteLine("Press any key to continue....");
-        Console.ReadKey();
+        static void Main(string[] args)
+        {
+            string input = "invalid";
+            while (input != "valid"){
+                Console.Clear();
+               
+                Console.WriteLine("Hi! Choose one of the following options");
+                Console.WriteLine("");
+                Console.WriteLine("1. Trainers");
+                Console.WriteLine("2. Listings");
+                Console.WriteLine("3. Bookings");
+                Console.WriteLine("4. Reports");
+                Console.WriteLine("5. Exit Application");
+               
+                string answer = Console.ReadLine();
+                string lowerAnswer = answer.ToLower();
+                if (lowerAnswer == "trainer"||lowerAnswer == "1"){
+                    input = "valid";
+                    Trainer classObj = new Trainer();
+                    classObj.TrainerMenu();
+                }
+                else if (lowerAnswer == "listing"||lowerAnswer == "2"){
+                    input = "valid";
+                    Listing classObj2 = new Listing();
+                    classObj2.Sessions();
+                }
+                else if (lowerAnswer == "booking"||lowerAnswer == "3"){
+                    input = "valid";
+                    Booking classObj3 = new Booking();
+                    classObj3.BookingsMenu();
+                }
+                else if (lowerAnswer == "report"||lowerAnswer == "4"){
+                    input = "valid";
+                    Reports classObj4 = new Reports();
+                    classObj4.ReportsMenu();
+                }
+                else if (lowerAnswer == "exit" || lowerAnswer == "exit application"||lowerAnswer == "5"){
+                    input = "valid";
+                }
+                else{
 
-        DisplayMenu();
-        userInput = Console.ReadLine();
+                }
+            }
+        }
     }
-
-    return userInput;
-}
-
-static void DisplayMenu(){
-    Console.Clear();
-    Console.WriteLine("1:   ");
-    Console.WriteLine("2:  ");
-    Console.WriteLine("3:  ");
-}
-
-static bool ValidMenuChoice(string userInput){
-    if(userInput == "1" || userInput == "2" || userInput == "3"){
-        return true;
-    }
-    else{
-        return false;
-    }
-
-  
-
-
-}
-
-static void Route(){
-    if(userInput == "1"){
-       ();
-    }
-    else if(userInput == "2") {
-        ();
-    }
-
-     
-
-    
-
-
 }
